@@ -1,0 +1,27 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard"
+  ],
+  "plugins": [
+    "babel",
+    "promise"
+  ],
+  "ecmaVersion": 6,
+  "env"     : {
+    "es6": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "spread": true
+  },
+
+  "rules": {
+    "semi" : [2, "never"],
+    "max-len": [2, 120, 2],
+    "generator-star-spacing": 0,
+    "space-before-function-paren": 0,
+    "babel/generator-star-spacing": 0,
+    "jsx-quotes": [2, "prefer-single"]
+  }
+}
